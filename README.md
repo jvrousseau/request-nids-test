@@ -15,8 +15,8 @@ open http://localhost:3000/ in your browser and open the console to see the same
 
 if you want to change some things in the test.js file run to have that update the bundle.js file
 
-The issue that I am seeing is that there seems to be some compression of the data on request within the browser...
-
 ```
     browserify -t brfs test.js > bundle.js
 ```
+
+The issue that I am seeing is that there seems to be some compression of the data on request within the browser...
