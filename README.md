@@ -23,16 +23,12 @@ The issue that I am seeing is that there seems to be some compression of the dat
 
 Here are some basic stats from testing
 
-Original file size: 340968 bytes
+__Original file size:__ 340968 bytes
 
-Server-side:
+##Server-side:
+- readFileSync: 340968 bytes
+- request: 340968 bytes
 
-    readFileSync: 340968 bytes
-
-    request: 340968 bytes
-
-Browser-side:
-
-    readFileSync: 340968 bytes
-
-    request: *327844 bytes*
+##Browser-side:
+- readFileSync: 340968 bytes
+- request: *327844 bytes*
