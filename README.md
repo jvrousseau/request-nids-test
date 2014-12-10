@@ -19,4 +19,12 @@ if you want to change some things in the test.js file run to have that update th
     browserify -t brfs test.js > bundle.js
 ```
 
-The issue that I am seeing is that there seems to be some compression of the data on request within the browser...
+The issue that I am seeing is that there seems to be some compression of the data on request within the browser.
+
+File size: 340968 bytes
+Server-side:
+    readFileSync: 340968 bytes
+    request: 340968 bytes
+Browser-side:
+    readFileSync: 340968 bytes
+    request: 327844 bytes
