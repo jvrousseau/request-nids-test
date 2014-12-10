@@ -1,0 +1,16 @@
+{
+  "name": "request-nids-test",
+  "version": "1.0.0",
+  "description": "testing request vs fs.readFileSync",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Rousseau",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "express": "^4.10.4",
+    "request": "^2.50.0"
+  }
+}
